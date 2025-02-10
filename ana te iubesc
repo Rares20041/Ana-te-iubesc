@@ -1,0 +1,6 @@
+git init
+git add
+git commit -m "Initial commit"
+git branch -m Main
+git remote add origin https:/github.com/Rares20041/Ana-te-iubesc.git
+git push -u origin main
