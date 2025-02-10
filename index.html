@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana te iubesc!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📄 Application to Be My Girlfriend 💖</h1>
+    
+    <form id="loveForm">
+        <label for="name">Numele tău 😊</label>
+        <input type="text" id="name" required>
+
+        <label for="reason">De ce ar trebuii să te aleg? 🥰</label>
+        <textarea id="reason" required></textarea>
+
+        <label for="date">Când putem merge la primul nostru date?💃🕺</label>
+        <input type="date" id="date" required>
+
+        <label>Promiți să mă iubești pentru totdeauna? ❤️</label>
+        <div class="radio-group">
+            <input type="radio" id="yes" name="love" value="yes" required>
+            <label for="yes">Da, normal 💘</label>
+        </div>
+        <div class="radio-group">
+            <input type="radio" id="no" name="love" value="no">
+            <label for="no">Nu (Răspuns greșit🤨)</label>
+        </div>
+
+        <button type="submit">Aplică acum</button>
+    </form>
+
+    <div id="result" class="hidden">
+        <h2>Felicitări! 🎉 Ești oficial iubita lu' Rareș! 💖</h2>
+        <div id="resultmessage"></div>
+        <div id="resultdate"></div>
+        <div id="resultname"></div>
+        <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1ydW05eHdrOWU3YWpoemlzaWxlbzZ1MmszOTM3OWtzaGhzcG5obiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oz8xsaLjLVqVXr3tS/giphy.gif" alt="Cute Love GIF">
+
+    </div>
+
+    <!-- Background sound added -->
+     <audio id="backgroundSound" src="https://www.youtube.com/watch?v=84yTsE4eNYQ" preload="auto"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
